@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajax Contact Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- ajax contact form -->
+    <section style="margin-top: 50px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <h5 class="card-header bg-primary text-center">Ajax Contact Form by Leon</h5>
+                        <div class="card-body bg-dark">
+                            <form class="contact__form" method="post" action="mail.php">
+                                <!-- form element -->
+                                <div class="row">
+                                    <div class="col-md-6 form-group ">
+                                        <input  name="name" type="text" class="form-control" placeholder="Name" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="email" type="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="phone" type="text" class="form-control" placeholder="Phone" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <textarea name="message" class="form-control" rows="3" placeholder="Message" required></textarea>
+                                    </div>
+                                    <div class="col-12 text-center mt-1">
+                                        <input name="submit" type="submit" class="btn btn-success" value="Send Message">
+                                    </div>
+                                </div><br>
+                                <!-- end form element -->
+                                <!-- form message -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="alert alert-success contact__msg text-center" style="display: none" role="alert">
+                                            Your message was sent successfully.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end message -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
