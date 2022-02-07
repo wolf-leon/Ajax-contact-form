@@ -1,5 +1,9 @@
 # Ajax-contact-form
 
+![alt text](https://webdesignerhut.com/wp-content/uploads/2014/07/Pass-Data-with-Ajax-to-a-PHP-file.png)
+
+This is a Contact me Form Template in HTML5, CSS3, Bootstrap, Ajax, PHP.
+
 Solution for localhost Xampp server not coonecting to mailserver issue
 
 To configure XAMPP to send Mail from Localhost in PHP :
@@ -9,27 +13,44 @@ To configure XAMPP to send Mail from Localhost in PHP :
 -Go to the (C:xampp\php\php.ini) and open the PHP configuration setting file then find the [mail function] by scrolling down or simply press ctrl+f to search it directly then find the following lines and pass these values. Remember, there may be a semicolon ; at the starting of each line, simply remove the semicolon from each line which is given below.
 
 /*code to be pasted in [mail function]*/
+
 [𝐦𝐚𝐢𝐥 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧]
+
 𝐅𝐨𝐫 𝐖𝐢𝐧𝟑𝟐 𝐨𝐧𝐥𝐲.
+
 𝐡𝐭𝐭𝐩://𝐩𝐡𝐩.𝐧𝐞𝐭/𝐬𝐦𝐭𝐩
+
 𝐒𝐌𝐓𝐏=𝐬𝐦𝐭𝐩.𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦
+
 𝐡𝐭𝐭𝐩://𝐩𝐡𝐩.𝐧𝐞𝐭/𝐬𝐦𝐭𝐩-𝐩𝐨𝐫𝐭
+
 𝐬𝐦𝐭𝐩_𝐩𝐨𝐫𝐭=𝟓𝟖𝟕
+
 𝐬𝐞𝐧𝐝𝐦𝐚𝐢𝐥_𝐟𝐫𝐨𝐦 = 𝐲𝐨𝐮𝐫_𝐞𝐦𝐚𝐢𝐥_𝐚𝐝𝐝𝐫𝐞𝐬𝐬_𝐡𝐞𝐫𝐞
+
 𝐬𝐞𝐧𝐝𝐦𝐚𝐢𝐥_𝐩𝐚𝐭𝐡 = "\"𝐂:\𝐱𝐚𝐦𝐩𝐩\𝐬𝐞𝐧𝐝𝐦𝐚𝐢𝐥\𝐬𝐞𝐧𝐝𝐦𝐚𝐢𝐥.𝐞𝐱𝐞\" -𝐭"
+
 
 press ctrl+s to save this file and then close it.
 
 -Now, go the (C:\xampp\sendmail\sendmail.ini) and open the sendmail configuration setting file then find sendmail by scrolling down or press ctrl+f to search it directly then find the following lines and pass these values. Remember, there may be a semicolon ; at the starting of each line, simply remove the semicolon from each line which is given below.
 
 /*code to be pasted in sendmail*/
+
 𝐬𝐦𝐭𝐩_𝐬𝐞𝐫𝐯𝐞𝐫=𝐬𝐦𝐭𝐩.𝐠𝐦𝐚𝐢𝐥.𝐜𝐨𝐦
+
 𝐬𝐦𝐭𝐩_𝐩𝐨𝐫𝐭=𝟓𝟖𝟕
+
 𝐞𝐫𝐫𝐨𝐫_𝐥𝐨𝐠𝐟𝐢𝐥𝐞=𝐞𝐫𝐫𝐨𝐫.𝐥𝐨𝐠
+
 𝐝𝐞𝐛𝐮𝐠_𝐥𝐨𝐠𝐟𝐢𝐥𝐞=𝐝𝐞𝐛𝐮𝐠.𝐥𝐨𝐠
+
 𝐚𝐮𝐭𝐡_𝐮𝐬𝐞𝐫𝐧𝐚𝐦𝐞= /*𝐞𝐦𝐚𝐢𝐥 𝐡𝐞𝐫𝐞*/
+
 𝐚𝐮𝐭𝐡_𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝= /*𝐞𝐦𝐚𝐢𝐥 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝*/
+
 𝐟𝐨𝐫𝐜𝐞_𝐬𝐞𝐧𝐝𝐞𝐫= /*𝐞𝐦𝐚𝐢𝐥 𝐡𝐞𝐫𝐞*/ (𝐢𝐭'𝐬 𝐨𝐩𝐭𝐢𝐨𝐧𝐚𝐥)
+
 
 press ctrl+s to save this file and then close it.
 
